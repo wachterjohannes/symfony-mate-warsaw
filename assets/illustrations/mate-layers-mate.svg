@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 440" font-family="IBM Plex Sans, sans-serif">
+<rect x="170" y="320" width="1010" height="66" rx="10" fill="#112a46"/>
+<text x="192" y="361" font-size="22" font-weight="700" fill="#ffffff">Mate</text>
+<text x="500" y="349" font-size="18" fill="#ffffff">The engine: discovery, the CLI, the skills installer. No tools of its own.</text>
+<text x="500" y="373" font-size="15" font-family="IBM Plex Mono, monospace" fill="#c3e2ff">symfony/ai-mate</text>
+<line x1="152" y1="80" x2="152" y2="386" stroke="#6b7c8c" stroke-width="1.5"/>
+<text x="140" y="222" text-anchor="end" font-size="14" font-family="IBM Plex Mono, monospace" letter-spacing="1.5" fill="#6b7c8c">COMPOSER</text>
+<text x="140" y="242" text-anchor="end" font-size="14" font-family="IBM Plex Mono, monospace" letter-spacing="1.5" fill="#6b7c8c">REQUIRE</text>
+</svg>

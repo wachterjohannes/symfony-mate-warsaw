@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ title }}{% endblock %}
+{% block body %}
+<h1>{{ title }}</h1>
+<p class="lead">{{ text }}</p>
+{% if signup|default(false) %}<a class="button" href="/signup">Sign up</a>{% endif %}
+{% endblock %}

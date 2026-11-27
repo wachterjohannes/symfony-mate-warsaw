@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 440" font-family="IBM Plex Sans, sans-serif">
+<rect x="170" y="1" width="1010" height="66" rx="10" fill="#ffffff" stroke="#3f6e77" stroke-width="2"/>
+<text x="192" y="42" font-size="22" font-weight="700" fill="#112a46">Your project</text>
+<text x="500" y="30" font-size="18" fill="#112a46">Your domain. The rules only you know.</text>
+<text x="500" y="54" font-size="15" font-family="IBM Plex Mono, monospace" fill="#112a46">mate/src · mate/skills</text>
+<text x="140" y="42" text-anchor="end" font-size="14" font-family="IBM Plex Mono, monospace" letter-spacing="1.5" fill="#3f6e77">YOU WRITE</text>
+<text x="590" y="430" text-anchor="middle" font-size="20" font-weight="700" fill="#112a46">Everything below the top row arrives with composer require. The top row is yours.</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 420" font-family="IBM Plex Sans, sans-serif">
+<rect x="250" y="8" width="18" height="18" rx="3" fill="#3f6e77"/><text x="278" y="23" font-size="18" fill="#112a46">Task one</text>
+<rect x="400" y="8" width="18" height="18" rx="3" fill="#112a46"/><text x="428" y="23" font-size="18" fill="#112a46">Task two</text>
+<line x1="250.0" y1="50" x2="250.0" y2="380" stroke="#6b7c8c" stroke-width="1" stroke-opacity="0.35"/>
+<text x="250.0" y="404" font-size="16" fill="#6b7c8c" text-anchor="middle">never</text>
+<line x1="630.0" y1="50" x2="630.0" y2="380" stroke="#6b7c8c" stroke-width="1" stroke-opacity="0.35"/>
+<text x="630.0" y="404" font-size="16" fill="#6b7c8c" text-anchor="middle">half the runs</text>
+<line x1="1010.0" y1="50" x2="1010.0" y2="380" stroke="#6b7c8c" stroke-width="1" stroke-opacity="0.35"/>
+<text x="1010.0" y="404" font-size="16" fill="#6b7c8c" text-anchor="middle">every run</text>
+<text x="220" y="97.0" font-size="24" font-weight="700" fill="#112a46" text-anchor="end">MCP server</text>
+<path d="M250,60 h224.0 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-224.0 z" fill="#3f6e77"/>
+<text x="492.0" y="79" font-size="20" font-weight="500" fill="#112a46">rarely</text>
+<path d="M250,94 h148.0 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-148.0 z" fill="#112a46"/>
+<text x="416.0" y="113" font-size="20" font-weight="500" fill="#112a46">rarely</text>
+<text x="220" y="217.0" font-size="24" font-weight="700" fill="#112a46" text-anchor="end">Bare CLI</text>
+<text x="264.0" y="199" font-size="20" font-weight="500" fill="#112a46">never</text>
+<text x="264.0" y="233" font-size="20" font-weight="500" fill="#112a46">never</text>
+<text x="220" y="337.0" font-size="24" font-weight="700" fill="#112a46" text-anchor="end">CLI + skills</text>
+<path d="M250,300 h756.0 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-756.0 z" fill="#3f6e77"/>
+<text x="1024.0" y="319" font-size="20" font-weight="500" fill="#112a46">every run</text>
+<path d="M250,334 h376.0 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-376.0 z" fill="#112a46"/>
+<text x="644.0" y="353" font-size="20" font-weight="500" fill="#112a46">half the runs</text>
+</svg>

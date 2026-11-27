@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 440" font-family="IBM Plex Sans, sans-serif">
+<rect x="170" y="240" width="1010" height="66" rx="10" fill="#ffffff"/>
+<text x="192" y="281" font-size="22" font-weight="700" fill="#112a46">Framework and libraries</text>
+<text x="500" y="269" font-size="18" fill="#112a46">Container, profiler, routes, services. Logs.</text>
+<text x="500" y="293" font-size="15" font-family="IBM Plex Mono, monospace" fill="#112a46">symfony/ai-{symfony,monolog}-mate-extension</text>
+</svg>

@@ -1,0 +1,3 @@
+{% extends 'base.html.twig' %}
+{% block body %}<h1>{{ product.name }}</h1><p>{{ product.price|number_format(2) }} EUR</p>
+<h2>Customers also looked at</h2><ul>{% for p in related %}<li><a href="/product/{{ p.id }}">{{ p.name }}</a></li>{% endfor %}</ul>{% endblock %}

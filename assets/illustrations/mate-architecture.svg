@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 210" font-family="IBM Plex Sans, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#112a46"/></marker>
+    <marker id="b" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto"><polygon points="8 0, 0 3, 8 6" fill="#3f6e77"/></marker>
+  </defs>
+  <!-- agent -->
+  <rect x="1" y="21" width="300" height="134" rx="10" fill="#ffffff" stroke="#112a46" stroke-width="2"/>
+  <text x="151" y="62" text-anchor="middle" font-size="22" font-weight="700" fill="#112a46">The agent</text>
+  <text x="151" y="96" text-anchor="middle" font-size="16" font-family="IBM Plex Mono, monospace" fill="#4b5a6e">Claude Code · Codex</text>
+  <text x="151" y="122" text-anchor="middle" font-size="16" font-family="IBM Plex Mono, monospace" fill="#4b5a6e">Copilot · Cursor · JetBrains</text>
+  <!-- agent -> mate -->
+  <line x1="302" y1="70" x2="418" y2="70" stroke="#112a46" stroke-width="2" marker-end="url(#a)"/>
+  <text x="360" y="60" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#112a46">tools:call</text>
+  <line x1="418" y1="110" x2="302" y2="110" stroke="#3f6e77" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#b)"/>
+  <text x="360" y="134" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#3f6e77">JSON back</text>
+  <!-- mate -->
+  <rect x="420" y="8" width="340" height="160" rx="10" fill="#112a46"/>
+  <text x="440" y="42" font-size="22" font-weight="700" fill="#ffffff">Mate</text>
+  <text x="505" y="42" font-size="14" font-family="IBM Plex Mono, monospace" fill="#c3e2ff">a dev dependency</text>
+  <rect x="440" y="64" width="92" height="34" rx="8" fill="none" stroke="#c3e2ff" stroke-width="1.5"/>
+  <text x="486" y="87" text-anchor="middle" font-size="15" font-family="IBM Plex Mono, monospace" fill="#ffffff">tools</text>
+  <rect x="544" y="64" width="92" height="34" rx="8" fill="none" stroke="#c3e2ff" stroke-width="1.5"/>
+  <text x="590" y="87" text-anchor="middle" font-size="15" font-family="IBM Plex Mono, monospace" fill="#ffffff">skills</text>
+  <rect x="648" y="64" width="92" height="34" rx="8" fill="none" stroke="#c3e2ff" stroke-width="1.5"/>
+  <text x="694" y="87" text-anchor="middle" font-size="15" font-family="IBM Plex Mono, monospace" fill="#ffffff">resources</text>
+  <text x="440" y="128" font-size="14" font-family="IBM Plex Mono, monospace" fill="#c3e2ff">own kernel · own container</text>
+  <text x="440" y="150" font-size="14" font-family="IBM Plex Mono, monospace" fill="#c3e2ff">your app is never booted</text>
+  <!-- mate -> app -->
+  <line x1="762" y1="88" x2="878" y2="88" stroke="#112a46" stroke-width="2" marker-end="url(#a)"/>
+  <text x="820" y="78" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#112a46">reads</text>
+  <!-- app -->
+  <rect x="880" y="8" width="299" height="160" rx="10" fill="#ffffff" stroke="#3f6e77" stroke-width="2"/>
+  <text x="900" y="42" font-size="22" font-weight="700" fill="#112a46">Your application</text>
+  <text x="900" y="64" font-size="14" font-family="IBM Plex Mono, monospace" fill="#4b5a6e">nothing added for production</text>
+  <rect x="900" y="80" width="259" height="24" rx="6" fill="#d5dcdc"/>
+  <text x="1029" y="97" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#112a46">container dump</text>
+  <rect x="900" y="110" width="259" height="24" rx="6" fill="#d5dcdc"/>
+  <text x="1029" y="127" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#112a46">profiler store</text>
+  <rect x="900" y="140" width="259" height="24" rx="6" fill="#d5dcdc"/>
+  <text x="1029" y="157" text-anchor="middle" font-size="14" font-family="IBM Plex Mono, monospace" fill="#112a46">log files</text>
+  <!-- caption -->
+  <text x="590" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#112a46">The rest of Symfony AI lets your application use AI. Mate lets AI use your application.</text>
+</svg>

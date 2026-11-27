@@ -1,0 +1,2 @@
+{% extends 'base.html.twig' %}
+{% block body %}<h1>Cart</h1>{% if items is empty %}<p>Your cart is empty.</p>{% endif %}<ul>{% for p in items %}<li>{{ p.name }}</li>{% endfor %}</ul>{% endblock %}

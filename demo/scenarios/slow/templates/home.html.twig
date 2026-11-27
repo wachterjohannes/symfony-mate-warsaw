@@ -1,0 +1,2 @@
+{% extends 'base.html.twig' %}
+{% block body %}<h1>Bean &amp; Leaf</h1><ul>{% for c in categories %}<li><a href="/category/{{ c }}">{{ c|capitalize }}</a></li>{% endfor %}</ul>{% endblock %}

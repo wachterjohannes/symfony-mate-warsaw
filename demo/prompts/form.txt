@@ -1,0 +1,1 @@
+I just filled out the signup form in my browser and hit save, but the page just reloaded and the account wasn't created. What went wrong? Be brief.

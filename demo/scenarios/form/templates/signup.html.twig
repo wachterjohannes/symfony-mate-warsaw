@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block title %}Sign up{% endblock %}
+{% block body %}
+<h1>Sign up</h1>
+<p class="lead">Create your Acme account.</p>
+{{ form_start(form) }}
+  <label for="{{ form.email.vars.id }}">Email</label>
+  {{ form_widget(form.email) }}
+  <label for="{{ form.username.vars.id }}">Username</label>
+  {{ form_widget(form.username) }}
+  <label for="{{ form.password.vars.id }}">Password</label>
+  {{ form_widget(form.password) }}
+  <label class="check">{{ form_widget(form.acceptTerms) }} I accept the terms</label>
+  <button type="submit">Save</button>
+{{ form_end(form, {render_rest: false}) }}
+{% endblock %}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#112a46" opacity="0.4"/>
+    </marker>
+  </defs>
+  <rect x="30" y="70" width="180" height="140" rx="12" fill="#112a46"/>
+  <text x="120" y="130" text-anchor="middle" fill="white" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600">Agent</text>
+  <text x="120" y="158" text-anchor="middle" fill="white" font-family="IBM Plex Sans, sans-serif" font-size="13" opacity="0.7">blind search</text>
+  <line x1="210" y1="110" x2="380" y2="32" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="120" x2="380" y2="67" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="132" x2="380" y2="102" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="140" x2="380" y2="137" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="150" x2="380" y2="172" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="158" x2="380" y2="207" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <line x1="210" y1="168" x2="380" y2="242" stroke="#112a46" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.35" marker-end="url(#arrow)"/>
+  <g font-family="IBM Plex Mono, monospace" font-size="12" fill="#112a46">
+    <rect x="390" y="16" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="37">SignupController.php</text>
+    <rect x="390" y="51" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="72">SignupType.php</text>
+    <rect x="390" y="86" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="107">Signup.php</text>
+    <rect x="390" y="121" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="142">signup.html.twig</text>
+    <rect x="390" y="156" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="177">var/log/dev.log</text>
+    <rect x="390" y="191" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="212">validator.yaml</text>
+    <rect x="390" y="226" width="190" height="32" rx="6" fill="#ffffff" stroke="#112a46" stroke-width="1.2"/><text x="404" y="247">security.yaml</text>
+  </g>
+  <g font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <text x="602" y="37" fill="#3f6e77">?</text>
+    <text x="602" y="72" fill="#3f6e77">?</text>
+    <text x="602" y="107" fill="#3f6e77">?</text>
+    <text x="602" y="142" fill="#3f6e77">?</text>
+    <text x="602" y="177" fill="#3f6e77">?</text>
+    <text x="602" y="212" fill="#3f6e77">?</text>
+    <text x="602" y="247" fill="#3f6e77">?</text>
+  </g>
+  <text x="730" y="165" text-anchor="middle" fill="#112a46" font-family="IBM Plex Sans, sans-serif" font-size="120" font-weight="700" opacity="0.12">?</text>
+  <text x="780" y="260" text-anchor="middle" fill="#112a46" font-family="IBM Plex Sans, sans-serif" font-size="18" opacity="0.8" font-style="italic">the code knows what can fail</text>
+</svg>

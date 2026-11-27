@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Acme{% endblock %}</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header><strong>Acme</strong> <a href="/">Home</a> <a href="/about">About</a> <a href="/signup">Sign up</a></header>
+<main>{% block body %}{% endblock %}</main>
+</body>
+</html>
